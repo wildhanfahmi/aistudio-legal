@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kebijakan Privasi AI Studio</title>
+  <meta name="description" content="Kebijakan privasi AI Studio, termasuk pemakaian data Google Drive.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="./">AI <span>Studio</span></a>
+    <nav>
+      <a href="./">Beranda</a>
+      <a href="terms.html">Syarat Layanan</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Kebijakan Privasi</h1>
+    <p class="muted">Berlaku sejak 1 November 2026</p>
+
+    <p>
+      Kebijakan ini menjelaskan data apa yang dipakai AI Studio ("aplikasi") dan bagaimana data itu diperlakukan.
+      AI Studio adalah aplikasi pribadi yang dijalankan di komputer pemiliknya sendiri; tidak ada server pusat milik
+      pihak lain yang menyimpan data pengguna.
+    </p>
+
+    <h2>1. Data yang diproses</h2>
+    <ul>
+      <li><strong>Konten yang Anda buat</strong>: judul, topik, naskah, karakter, tema, konsep, dan file video hasil
+        render. Semua disimpan di komputer tempat aplikasi berjalan.</li>
+      <li><strong>Data Google</strong> (hanya bila Anda menghubungkan Google Drive): token akses OAuth dan informasi
+        file/folder yang dibuat oleh AI Studio di Google Drive Anda.</li>
+    </ul>
+
+    <h2>2. Akses ke Google Drive</h2>
+    <p>
+      AI Studio hanya meminta izin <code>https://www.googleapis.com/auth/drive.file</code>. Dengan izin ini aplikasi:
+    </p>
+    <ul>
+      <li>membuat folder "AI Studio Renders" dan mengunggah video hasil render ke folder itu;</li>
+      <li>hanya dapat mengakses file dan folder yang dibuat oleh AI Studio sendiri;</li>
+      <li><strong>tidak</strong> dapat melihat, membaca, mengubah, atau menghapus file lain di Google Drive Anda.</li>
+    </ul>
+
+    <h2>3. Penyimpanan dan keamanan</h2>
+    <ul>
+      <li>Token Google disimpan <strong>terenkripsi</strong> di database lokal pada komputer pemilik aplikasi dan tidak
+        dicetak ke log.</li>
+      <li>Akses ke aplikasi dilindungi kata sandi.</li>
+    </ul>
+
+    <h2>4. Berbagi data</h2>
+    <p>
+      AI Studio <strong>tidak menjual, menyewakan, atau membagikan</strong> data Google Anda kepada pihak ketiga, dan
+      tidak memakainya untuk iklan. Data Google hanya dipakai untuk fitur yang Anda minta, yaitu mengunggah video ke
+      Google Drive Anda.
+    </p>
+    <p>
+      Pemakaian dan pengalihan informasi yang diterima dari Google API oleh AI Studio mematuhi
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+      termasuk persyaratan Limited Use.
+    </p>
+
+    <h2>5. Layanan lain yang dipakai</h2>
+    <p>
+      Untuk membuat video, teks naskah dikirim ke layanan pembuat naskah (Claude) dan teks narasi ke layanan suara
+      (Microsoft Edge TTS). Data Google Drive tidak pernah dikirim ke layanan tersebut.
+    </p>
+
+    <h2>6. Menghapus data dan mencabut akses</h2>
+    <ul>
+      <li>Putuskan Google Drive di menu <em>Pengaturan → Integrasi</em> di aplikasi; token akan dihapus.</li>
+      <li>Anda juga dapat mencabut akses kapan saja di
+        <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+      <li>Video yang sudah diunggah tetap ada di Google Drive Anda sampai Anda menghapusnya sendiri.</li>
+    </ul>
+
+    <h2>7. Perubahan kebijakan</h2>
+    <p>Bila kebijakan ini berubah, tanggal "Berlaku sejak" di atas akan diperbarui.</p>
+
+    <h2>8. Kontak</h2>
+    <p>Pertanyaan tentang privasi dapat disampaikan melalui <a href="https://github.com/wildhanfahmi">github.com/wildhanfahmi</a>.</p>
+  </main>
+  <footer>
+    © 2026 AI Studio · <a href="./">Beranda</a> · <a href="terms.html">Syarat Layanan</a>
+  </footer>
+</body>
+</html>
